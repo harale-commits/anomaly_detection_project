@@ -7,9 +7,8 @@ import OpenAI from "openai";
 import Table from "./Table";
 
 const openai = new OpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
-  apiKey:
-    "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",
+  baseURL: "https://",
+  apiKey: `${import.meta.env.VITE_DEEPSEEK_API_KEY}`,
   dangerouslyAllowBrowser: true,
 });
 
